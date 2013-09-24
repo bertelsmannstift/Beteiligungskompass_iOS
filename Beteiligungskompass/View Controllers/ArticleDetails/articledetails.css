@@ -1,0 +1,245 @@
+body {
+    font-family: "DroidSans";
+    background-color: white;
+    color:#656764;
+    font-size:14px;
+}
+
+.container {
+    width:100%;
+    padding:10px 5px;
+    border-top:1px solid #656764;
+    overflow:hidden;
+}
+
+/* iPad specific style */
+.container.ipad {
+
+}
+.container.ipad.landscape {
+
+}
+.container.ipad.portrait {
+
+}
+
+/* iPhone specific style */
+.container.iphone {
+
+}
+.container.iphone.landscape {
+    /*color:red;*/
+    padding: 0px 10px 0px 10px;
+    width:460px;
+}
+.container.iphone-large.landscape {
+    width:548px;
+}
+.container.iphone.portrait {
+    /*color:blue;*/
+    padding: 0px 10px 0px 10px;
+    width:300px;
+}
+
+/* Left and right column */
+#left-column {}
+#right-column {}
+
+/* iPad Right Column */
+#right-column.ipad {
+    width:250px;
+}
+/* iPad Left Column */
+#left-column.ipad {
+    padding:10px 40px;
+}
+#left-column.ipad.landscape {
+    width:684px;
+}
+#left-column.ipad.portrait {
+    padding:10px 10px;
+    width:488px;
+}
+
+.bold,
+strong,
+h1, h2 {
+    font-family: "DroidSans-Bold";
+}
+a {
+    text-decoration:none;
+    outline:none;
+}
+a:link,
+a:visited {
+    color:#656764;
+}
+
+#left-column a:link, #left-column a:visited {
+    color:#0c4c86;
+}
+
+a:active,
+a:hover,
+a:focus {
+    color:#656764;
+}
+
+label, h2 {
+    color: #2E3C64;
+}
+label {
+    display:inline-block;
+    min-width:70px;
+}
+
+.headline h2 {
+    font-size:18px;
+}
+
+.headline h2:after {
+    content: "";
+    display:block;
+    width:100%;
+    height:1px;
+    padding:0;
+    margin:0;
+    -webkit-border-image: -webkit-gradient(linear, left bottom, right bottom, from(#2E3C64), to(#fff)) 0 0 0 0 repeat repeat;
+}
+
+.labeled {}
+.headline {}
+
+iframe {
+    border:0;
+    outline:0;
+}
+#videoPlayer {
+    width:310px;
+    margin: 10px 0;
+}
+
+ul {
+    list-style:none;
+    width:100%;
+    margin:0px 0;
+    padding:0;
+}
+ul li {
+    float:left;
+    margin-right:5px;
+}
+#left-column ul {
+    list-style:disc;
+}
+#left-column ul li {
+    margin-left:20px;
+}
+ul li:last-child {
+    margin-right:0;
+}
+ul:after {
+    display: block;
+    clear: both;
+    content: " ";
+    height: 0;
+    overflow: hidden;
+}
+
+.datafield ul li {
+    float:none;
+    margin-right:0;
+}
+
+#linked-articles li, #downloads li {
+    float:none;
+    width:240px;
+    background-color:#efebdf;
+    padding:8px;
+    border-radius:3px;
+    margin-bottom:5px;
+}
+
+#downloads li { 
+    word-wrap: break-word;
+}
+
+.iphone.portrait #linked-articles li {
+    width:294px;
+}
+.iphone.landscape #linked-articles li {
+    width:454px;
+}
+
+.iphone-large.landscape #linked-articles li {
+    width: 542px;
+}
+
+#videos {
+
+}
+#external-links li {
+    margin-bottom:10px;
+}
+
+#images ul {
+    float: left;
+}
+
+#images li {
+    margin-bottom:5px;
+    display:none;
+}
+
+#images li, #videos li {
+    list-style-type: none;
+}
+
+#images li:first-child {
+    display: inline-block;
+}
+
+.landscape .short-description h2{
+    display:none;
+}
+
+.clear {
+    clear: both;
+}
+
+.ipad.landscape .image-floating {
+    float: left;
+    padding: 0px 20px 0px 0px;
+    background-color: white;
+}
+
+.iphone.landscape .image-floating {
+    width: 35%;
+}
+
+#videoThumbnail, #videoFrame {
+    height: 240px;
+    width: 300px;
+}
+
+.ipad.portrait #videoThumbnail, .ipad.portrait #videoFrame {
+    height: 372px;
+    width: 488px;
+}
+
+.ipad.landscape #videoThumbnail, .ipad.landscape #videoFrame
+{
+    height: 522px;
+    width: 684px;
+}
+
+.iphone.landscape #videoThumbnail, .iphone.landscape #videoFrame
+{
+    height: 362px;
+    width: 460px;
+}
+
+.iphone-large.landscape #videoThumbnail, .iphone-large.landscape #videoFrame
+{
+    width: 548px;
+}

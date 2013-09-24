@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Xcode 4.4" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Article" representedClassName="Article" syncable="YES">
+        <attribute name="active" optional="YES" attributeType="Boolean" indexed="YES" versionHashModifier="index-change" syncable="YES"/>
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aim" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="author_answer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="background" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contact" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contact_person" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="costs" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="criteria_json" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="deadline" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="deleted" optional="YES" attributeType="Boolean" indexed="YES" versionHashModifier="index-change" syncable="YES"/>
+        <attribute name="description_institution" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="end_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="end_month" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="end_year" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="external_links_json" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fax" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fee" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_from_import" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="institution" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="intro" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_custom" optional="YES" attributeType="Boolean" indexed="YES" versionHashModifier="index-change" syncable="YES"/>
+        <attribute name="lastname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linking_json" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="long_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="more_information" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number_of_participants" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="organized_by" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="origin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="participants" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="participation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="plaintext" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="process" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="projectstatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="publisher" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ready_for_publish" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="restrictions" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="results" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="short_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="short_description_expert" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="start_month" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="start_year" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="sticky" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="street" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="street_nr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strengths" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subtitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time_expense" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" indexed="YES" versionHashModifier="index-change" syncable="YES"/>
+        <attribute name="updated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="used_for" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weaknesses" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="when_not_to_use" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="when_to_use" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="zip" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="external_links" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="External_Link" inverseName="article" inverseEntity="External_Link" syncable="YES"/>
+        <relationship name="favorites" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Favorite_Entry" inverseName="article" inverseEntity="Favorite_Entry" syncable="YES"/>
+        <relationship name="files" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Linked_file" inverseName="article" inverseEntity="Linked_file" syncable="YES"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Image" inverseName="article" inverseEntity="Image" syncable="YES"/>
+        <relationship name="linked_articles" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Article" inverseName="linking_articles" inverseEntity="Article" syncable="YES"/>
+        <relationship name="linking_articles" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Article" inverseName="linked_articles" inverseEntity="Article" syncable="YES"/>
+        <relationship name="options" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CriteriaOption" inverseName="articles" inverseEntity="CriteriaOption" syncable="YES"/>
+        <relationship name="originating_user" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="created_articles" inverseEntity="User" syncable="YES"/>
+        <relationship name="videos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Video" inverseName="article" inverseEntity="Video" syncable="YES"/>
+    </entity>
+    <entity name="Context" representedClassName="Context" syncable="YES">
+        <attribute name="articletype" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="criteria" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Criterion" inverseName="contexts" inverseEntity="Criterion" syncable="YES"/>
+        <relationship name="grouped_by" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Criterion" inverseName="grouping" inverseEntity="Criterion" syncable="YES"/>
+    </entity>
+    <entity name="CriteriaOption" representedClassName="CriteriaOption" syncable="YES">
+        <attribute name="default_value" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="deleted" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="id_from_import" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="optionDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderindex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="articles" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Article" inverseName="options" inverseEntity="Article" syncable="YES"/>
+        <relationship name="childs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CriteriaOption" inverseName="parent" inverseEntity="CriteriaOption" syncable="YES"/>
+        <relationship name="criterion" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Criterion" inverseName="options" inverseEntity="Criterion" syncable="YES"/>
+        <relationship name="parent" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="CriteriaOption" inverseName="childs" inverseEntity="CriteriaOption" syncable="YES"/>
+    </entity>
+    <entity name="Criterion" representedClassName="Criterion" syncable="YES">
+        <attribute name="criterionDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deleted" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="discriminator" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filter_type_or" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="group_article_types" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_from_import" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="orderindex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="show_in_planner" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="contexts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Context" inverseName="criteria" inverseEntity="Context" syncable="YES"/>
+        <relationship name="grouping" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Context" inverseName="grouped_by" inverseEntity="Context" syncable="YES"/>
+        <relationship name="options" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CriteriaOption" inverseName="criterion" inverseEntity="CriteriaOption" syncable="YES"/>
+    </entity>
+    <entity name="External_Link" representedClassName="External_Link" syncable="YES">
+        <attribute name="order" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="show_link" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="article" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Article" inverseName="external_links" inverseEntity="Article" syncable="YES"/>
+    </entity>
+    <entity name="Favorite_Entry" representedClassName="Favorite_Entry" syncable="YES">
+        <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id_from_import" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="article" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Article" inverseName="favorites" inverseEntity="Article" syncable="YES"/>
+        <relationship name="groups" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Favorite_Group" inverseName="entries" inverseEntity="Favorite_Group" syncable="YES"/>
+        <relationship name="user" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="favorites" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="Favorite_Group" representedClassName="Favorite_Group" syncable="YES">
+        <attribute name="id_from_import" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="sharingurl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="entries" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Favorite_Entry" inverseName="groups" inverseEntity="Favorite_Entry" syncable="YES"/>
+        <relationship name="user" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="groups" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="File" representedClassName="File" syncable="YES">
+        <attribute name="ext" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_from_import" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="md5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="files" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Linked_file" inverseName="file" inverseEntity="Linked_file" syncable="YES"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Image" inverseName="file" inverseEntity="Image" syncable="YES"/>
+    </entity>
+    <entity name="Image" representedClassName="Image" syncable="YES">
+        <attribute name="embedded" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="imageDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="article" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Article" inverseName="images" inverseEntity="Article" syncable="YES"/>
+        <relationship name="file" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="File" inverseName="images" inverseEntity="File" syncable="YES"/>
+    </entity>
+    <entity name="Linked_file" representedClassName="Linked_file" syncable="YES">
+        <attribute name="fileDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="article" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Article" inverseName="files" inverseEntity="Article" syncable="YES"/>
+        <relationship name="file" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="File" inverseName="files" inverseEntity="File" syncable="YES"/>
+    </entity>
+    <entity name="Localization" representedClassName="Localization" syncable="YES">
+        <attribute name="key" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Page" representedClassName="Page" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fields" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_from_import" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="short_title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PartnerLink" representedClassName="PartnerLink" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_from_import" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="dbloptin" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="first_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_from_import" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="is_active" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="is_admin" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="is_deleted" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="is_editor" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="last_name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="created_articles" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Article" inverseName="originating_user" inverseEntity="Article" syncable="YES"/>
+        <relationship name="favorites" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Favorite_Entry" inverseName="user" inverseEntity="Favorite_Entry" syncable="YES"/>
+        <relationship name="groups" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Favorite_Group" inverseName="user" inverseEntity="Favorite_Group" syncable="YES"/>
+    </entity>
+    <entity name="Video" representedClassName="Video" syncable="YES">
+        <attribute name="featured" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="article" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Article" inverseName="videos" inverseEntity="Article" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Article" positionX="0" positionY="0" width="128" height="1245"/>
+        <element name="Context" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="CriteriaOption" positionX="0" positionY="0" width="128" height="195"/>
+        <element name="Criterion" positionX="0" positionY="0" width="128" height="240"/>
+        <element name="External_Link" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="Favorite_Entry" positionX="0" positionY="0" width="128" height="120"/>
+        <element name="Favorite_Group" positionX="0" positionY="0" width="128" height="120"/>
+        <element name="File" positionX="0" positionY="0" width="128" height="165"/>
+        <element name="Image" positionX="0" positionY="0" width="128" height="120"/>
+        <element name="Linked_file" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="Localization" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Page" positionX="0" positionY="0" width="128" height="135"/>
+        <element name="PartnerLink" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="User" positionX="0" positionY="0" width="128" height="225"/>
+        <element name="Video" positionX="0" positionY="0" width="128" height="105"/>
+    </elements>
+</model>

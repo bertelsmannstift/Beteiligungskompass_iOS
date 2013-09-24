@@ -1,0 +1,55 @@
+//
+//  Beteiligungskompass-Prefix.pch
+//  Beteiligungskompass
+//
+//  Copyright (C) 2013 Bertelsmann Stiftung
+//
+
+
+// Prefix header for all source files of the 'Beteiligungskompass' target in the 'Beteiligungskompass' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+#import "RCComm.h"
+#import "RCAppDelegate.h"
+#import "NSString+ApplicationDirectory.h"
+#import "NSManagedObject+RCCoreData.h"
+#import "UIFont+AppFont.h"
+#import "UIScreen+Additions.h"
+
+#import "Context.h"
+#import "User.h"
+#import "File.h"
+#import "Criterion.h"
+#import "Article.h"
+#import "Page.h"
+#import "CriteriaOption.h"
+#import "Favorite_Group.h"
+#import "Favorite_Entry.h"
+#import "PartnerLink.h"
+#import "External_Link.h"
+#import "Image.h"
+#import "Video.h"
+#import "RCSlideInVC.h"
+#import "Linked_file.h"
+#import "Localization.h"
+#import "Endpoints.h"
+
+
+#define RCListUpdatedNotification @"RCListUpdatedNotification"
+#define RCEditingClosedNotification @"RCEditingClosedNotification"
+#define RCArticleSavedNotification @"RCArticleSavedNotification"
+#define RCArticleUpdatedNotification @"RCArticleUpdatedNotification"
+
+NSString *RCLocalizedString(NSString *fallback, NSString *key);
+
+#endif

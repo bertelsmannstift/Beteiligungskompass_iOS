@@ -1,0 +1,18 @@
+/*
+  sorting.strings
+  Beteiligungskompass
+
+  Copyright (C) 2013 Bertelsmann Stiftung
+
+*/
+
+"title" = "label.title";
+"created" = "label.added_last";
+"study_start" = "label.date";
+"fav" = "global.sortfav";
+"year" = "label.year";
+"lastname" = "label.lastname";
+"institution" = "label.institution";
+"date" = "label.date";
+"author" = "label.author";
+"start_date"= "label.date";

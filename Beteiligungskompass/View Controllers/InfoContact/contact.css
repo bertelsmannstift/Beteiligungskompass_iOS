@@ -1,0 +1,22 @@
+body {
+    font-family: "DroidSans";
+    background-color: white;
+    color:#656764;
+    font-size:14px;
+    padding:0;
+    margin:0;
+}
+
+.container {
+    width:90%;
+    margin:5%;
+    padding:10px 5px;
+}
+
+a {
+    color: #0c4c86;
+}
+
+#details {
+    font-size: 12px;
+}

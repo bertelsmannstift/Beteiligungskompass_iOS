@@ -1,0 +1,16 @@
+<html>
+    <head>
+    </head>
+    <body style="padding:0;margin:0">
+    	<script src="%@"></script>
+        <img id="img" src="%@" width="%f" height="%f">
+        <iframe id="iframe" width="%f" height="%f" src="http://www.youtube.com/embed/%@" frameborder="0" allowfullscreen></iframe>
+        <script lang="javascript">
+        	$(function(){
+	        	$("#iframe").load(function(){
+		        	$("#img").hide();
+	        	});
+        	});
+        </script>
+    </body>
+</html>

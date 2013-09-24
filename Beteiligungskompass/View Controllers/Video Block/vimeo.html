@@ -1,0 +1,16 @@
+<html>
+    <head>
+    </head>
+    <body style="padding:0;margin:0">
+    	<script src="%@"></script>
+        <img id="img" src="%@" width="%f" height="%f">
+        <iframe id="iframe" width="%f" height="%f" src="http://player.vimeo.com/video/%@" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <script lang="javascript">
+        	$(function(){
+	        	$("#iframe").load(function(){
+		        	$("#img").hide();
+	        	});
+        	});
+        </script>
+    </body>
+</html>
